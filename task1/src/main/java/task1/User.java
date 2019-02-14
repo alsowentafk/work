@@ -2,19 +2,31 @@ package task1;
 
 public class User {
 
-    private final long id;
-    private final String content;
+    private  long id;
+    private  String content;
 
     public User(long id, String content) {
         this.id = id;
         this.content = content;
     }
+    
+    public void setId(long ID) 
+    {
+    	this.id = ID;
+    }
+    
+    public void setContent(String Content)
+    {
+    	this.content = Content;
+    }
 
     public long getId() {
-        return id;
+       
+    	return id;
     }
 
     public String getContent() {
-        return content;
+        
+    	return content;
     }
 }

@@ -2,6 +2,6 @@
 <section name="Workbench">
 	<section name="org.eclipse.buildship.ui.wizard.project.creation">
 		<item value="true" key="use_default_location"/>
-		<item value="/home/also/Desktop/work/task1" key="project_location"/>
+		<item value="/home/also/Desktop/work/demo" key="project_location"/>
 	</section>
 </section>
