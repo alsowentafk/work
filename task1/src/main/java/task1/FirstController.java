@@ -70,10 +70,20 @@ public class FirstController {
     	return us;
     }
     
-    @PutMapping
+    @PutMapping("{id}")
     public User update(@PathVariable long id, @RequestBody User us)
     {
-    	User findMess = getUser(us.getId());
+    	User findMess = getUser(id);
+    	if(findMess == null)
+    	{    		
+            throw new NotFoundException();
+    	}
+    	
+    	if(us == null)
+    	{    		
+            throw new NotFoundException();
+    	}
+    	
     	findMess.setId(id);
     	findMess.setContent(us.getContent());
     	return findMess;
