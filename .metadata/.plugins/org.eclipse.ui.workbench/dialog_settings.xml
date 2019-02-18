@@ -17,7 +17,7 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.buildship.ui.wizard.project.creation" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.buildship.ui.creationwizards"/>
 			<item value="org.eclipse.jdt.ui.java"/>
@@ -30,5 +30,7 @@
 		<item value="825" key="DIALOG_HEIGHT"/>
 		<item value="0" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ImportExportAction">
 	</section>
 </section>
