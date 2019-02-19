@@ -32,18 +32,18 @@ public class FirstController {
 	
 	private UserRepository userRepository;
 	
-   private int counter = 4;   
-    public List <User> obj_list = new ArrayList<User>() {{
+   //private int counter = 4;   
+   /* public List <User> obj_list = new ArrayList<User>() {{
     	add(new User(1,"First"));
     	add(new User(2,"Second"));
     	add(new User(3,"Three"));
-    }};
+    }};*/
 
           
     @RequestMapping("/collection")
-    public List <User> getList()
+    public Iterable<User> getList()
     {
-    	return obj_list;
+    	return userRepository.findAll();
     }
     
     @RequestMapping("/first")
@@ -55,19 +55,20 @@ public class FirstController {
     @GetMapping("{id}")
     public User getUserbyID(@PathVariable long id)
     {
-    	return getUser(id);	
+    	return userRepository.findOne(id);
+              //  .orElseThrow(() -> new ResourceNotFoundException("Note", "id", noteId));
     }
     
-    public User getUser(@PathVariable long id)
+    /*public User getUser(@PathVariable long id)
     {
     	return obj_list.stream().filter(obj_list -> obj_list.getId() == id).findFirst().orElseThrow(NotFoundException::new);	
-    }
+    }*/
     
     @PostMapping
     public User addUser(@RequestBody User us)
     {
-    	us.setId(counter++);
-    	obj_list.add(us);
+    	//us.setId(counter++);
+    	//obj_list.add(us);
     	userRepository.save(us);
     	return us;
     }
@@ -75,7 +76,7 @@ public class FirstController {
     @PutMapping("{id}")
     public User update(@PathVariable long id, @RequestBody User us)
     {
-    	User findMess = getUser(id);
+    	User findMess = userRepository.findOne(id);
     	if(findMess == null)
     	{    		
             throw new NotFoundException();
@@ -88,15 +89,16 @@ public class FirstController {
     	
     	findMess.setId(id);
     	findMess.setContent(us.getContent());
+    	userRepository.save(findMess);
     	return findMess;
     	
     } 
        	
     @DeleteMapping("{id}")
-    public void delete(@PathVariable long id)
-    {
-    	User deleteobj = getUser(id);
-    	obj_list.remove(deleteobj);
+    public String delete(@PathVariable long id)
+    {    	
+    	userRepository.delete(id);
+    	return "Sucssesfully deleted";
     }
     
     
