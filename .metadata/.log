@@ -4295,3 +4295,185 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-19 12:39:38.654
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YwDxNpGT => OK
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-02-20 17:39:36.079
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1
+!SESSION 2019-02-20 17:39:41.127 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2019-02-20 17:39:47.105
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-20 17:39:47.105
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@391b03b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a977146,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-20 17:39:48.385
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:54.490
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:54.491
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@65de27f7[org.springframework.tooling.boot.ls:1.2.1.201901241129(id=990)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:54.493
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:54.510
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.369
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DNKxzllm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.370
+!MESSAGE subscribing to classpath changes: sts4.classpath.DNKxzllm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.370
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.370
+!MESSAGE subsribers = [sts4.classpath.DNKxzllm]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.371
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.372
+!MESSAGE project task1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.373
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.373
+!MESSAGE Preparing classpath changed notification task1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.373
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DNKxzllm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.373
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.376
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.377
+!MESSAGE executing callback sts4.classpath.DNKxzllm task1 false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:40:57.421
+!MESSAGE executing callback sts4.classpath.DNKxzllm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:37.372
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DNKxzllm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:37.373
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DNKxzllm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:37.373
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:37.373
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DNKxzllm => OK
+!SESSION 2019-02-20 17:41:39.532 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data file:/home/also/Desktop/work/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2019-02-20 17:41:46.670
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-20 17:41:46.670
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@157267db,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b8ac512,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-20 17:41:48.102
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:50.078
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:50.101
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2297cb1e[org.springframework.tooling.boot.ls:1.2.1.201901241129(id=990)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:50.102
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:50.201
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.551
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fRLpJbYF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.552
+!MESSAGE subscribing to classpath changes: sts4.classpath.fRLpJbYF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.553
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.554
+!MESSAGE subsribers = [sts4.classpath.fRLpJbYF]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.554
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.556
+!MESSAGE project task1 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.557
+!MESSAGE Preparing classpath changed notification task1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.558
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.559
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.559
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fRLpJbYF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.562
+!MESSAGE classpath=88 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.562
+!MESSAGE executing callback sts4.classpath.fRLpJbYF task1 false 88
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-02-20 17:41:53.608
+!MESSAGE executing callback sts4.classpath.fRLpJbYF SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-20 17:47:05.601
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
