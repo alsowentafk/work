@@ -8,7 +8,7 @@ plugins {
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'eclipse'
 
-group = 'task1'
+group = 'com'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -29,4 +29,8 @@ dependencies {
 	 compile("org.springframework.boot:spring-boot-starter-web")
 	     compile ('mysql:mysql-connector-java:6.0.+')
 	 
+}
+
+springBoot {
+    mainClass = "com.Task1Application"
 }
