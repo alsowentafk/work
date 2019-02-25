@@ -5,30 +5,27 @@ import com.repositorys.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.models.User;
+import com.models.UserODT;
+import com.transoformers.UserUserODT;
 
 @Service
 public class UserService {
 
 	@Autowired
-	public UserRepository repository;
+	private UserRepository repository;
 
-	public Iterable<User> getAll() {
+	public UserUserODT converter = new UserUserODT();
 
-		return repository.findAll();
+	public UserODT getUserbyID(long id) {
+		return converter.ConvertToUserODT(repository.findOne(id));
 	}
 
-	public User getUserbyID(long id) {
-		return repository.findOne(id);
+	public void save(UserODT userODT) {
+		repository.save(converter.ConvertToUser(userODT));
 	}
 
-	public User save(User us) {
-		repository.save(us);
-		return us;
-	}
-
-	public void update(User user) {
-		repository.save(user);
+	public void update(UserODT userODT) {
+		repository.save(converter.ConvertToUser(userODT));
 	}
 
 	public void delete(Long id) {
