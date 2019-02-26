@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
-import com.models.User;
+import com.models.UserODT;
 import com.services.UserServiceJDBC;
 
 @RestController
@@ -22,13 +22,13 @@ public class UserControllerJDBC {
 	private UserServiceJDBC service;
 
 	@GetMapping("{id}")
-	public User getUserbyID(@PathVariable long id) {
+	public UserODT getUserbyID(@PathVariable long id) {
 		return service.getUser(id);
 	}
 
 	@PostMapping
-	public void saveUser(@RequestBody User user) {
-		service.saveUser(user);
+	public void saveUser(@RequestBody UserODT userODT) {
+		service.saveUser(userODT);
 	}
 
 	@DeleteMapping("{id}")
@@ -37,7 +37,7 @@ public class UserControllerJDBC {
 	}
 
 	@PutMapping
-	public void updateUser(@RequestBody User user) {
-		service.update(user);
+	public void updateUser(@RequestBody UserODT userODT) {
+		service.update(userODT);
 	}
 }

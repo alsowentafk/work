@@ -14,7 +14,8 @@ public class UserService {
 	@Autowired
 	private UserRepository repository;
 
-	public UserUserODT converter = new UserUserODT();
+	@Autowired
+	private UserUserODT converter;
 
 	public UserODT getUserbyID(long id) {
 		return converter.ConvertToUserODT(repository.findOne(id));

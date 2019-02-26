@@ -2,7 +2,9 @@ package com.transoformers;
 
 import com.models.User;
 import com.models.UserODT;
+import org.springframework.stereotype.Component;;
 
+@Component
 public class UserUserODT {
 
 	public User ConvertToUser(UserODT userODT) {

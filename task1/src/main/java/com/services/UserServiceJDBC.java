@@ -1,38 +1,33 @@
 package com.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Service;
-import com.models.User;
+import com.models.UserODT;
+import com.repositorys.UserRepositoryJDBC;
+import com.transoformers.UserUserODT;
 
 @Service
 public class UserServiceJDBC {
 
 	@Autowired
-	private JdbcTemplate jdbcTemplate;
+	private UserRepositoryJDBC repository;
 
-	public User getUser(Long id) {
-		String sql = "SELECT id, content FROM user WHERE id = ?";
-		RowMapper<User> rowMapper = new BeanPropertyRowMapper<User>(User.class);
-		User user = jdbcTemplate.queryForObject(sql, rowMapper, id);
-		return user;
+	@Autowired
+	private UserUserODT converter;
+
+	public UserODT getUser(Long id) {
+		return converter.ConvertToUserODT(repository.findOne(id));
 	}
 
-	public void saveUser(User user) {
-		String sql = "INSERT INTO user (id, content) values (?, ?)";
-		jdbcTemplate.update(sql, user.getId(), user.getContent());
+	public void saveUser(UserODT userODT) {
+		repository.save(converter.ConvertToUser(userODT));
 	}
 
 	public void deleteUser(Long id) {
-		String sql = "DELETE FROM user WHERE id=?";
-		jdbcTemplate.update(sql, id);
+		repository.delete(id);
 	}
 
-	public void update(User user) {
-		String sql = "UPDATE user SET content=? WHERE id=?";
-		jdbcTemplate.update(sql, user.getContent(), user.getId());
+	public void update(UserODT userODT) {
+		repository.update(converter.ConvertToUser(userODT));
 	}
-
 }
