@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "spring.second-db.jdbcUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-db.jdbcUrl'"
+  },
+  {
+    "name": "spring.second-db.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-db.username'"
+  },
+  {
+    "name": "spring.second-db.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-db.password'"
+  },
+  {
+    "name": "spring.second-db.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.second-db.driver-class-name'"
+  }
+]}
