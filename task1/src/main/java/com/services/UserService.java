@@ -5,7 +5,7 @@ import com.repositorys.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.models.UserODT;
+import com.models.UserDTO;
 import com.transoformers.UserUserODT;
 
 @Service
@@ -17,15 +17,15 @@ public class UserService {
 	@Autowired
 	private UserUserODT converter;
 
-	public UserODT getUserbyID(long id) {
+	public UserDTO getUserbyID(long id) {
 		return converter.ConvertToUserODT(repository.findOne(id));
 	}
 
-	public void save(UserODT userODT) {
+	public void save(UserDTO userODT) {
 		repository.save(converter.ConvertToUser(userODT));
 	}
 
-	public void update(UserODT userODT) {
+	public void update(UserDTO userODT) {
 		repository.save(converter.ConvertToUser(userODT));
 	}
 

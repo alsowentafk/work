@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class UserODT {
+public class UserDTO {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
