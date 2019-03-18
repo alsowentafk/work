@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.models.UserDTO;
 import com.repositorys.UserRepositoryJDBC;
-import com.transoformers.UserUserODT;
+import com.transoformers.UserUserDTO;;
 
 @Service
 public class UserServiceJDBC {
@@ -13,21 +13,21 @@ public class UserServiceJDBC {
 	private UserRepositoryJDBC repository;
 
 	@Autowired
-	private UserUserODT converter;
+	private UserUserDTO converter;
 
 	public UserDTO getUser(Long id) {
-		return converter.ConvertToUserODT(repository.findOne(id));
+		return converter.ConvertToUserDTO(repository.findOne(id));
 	}
 
-	public void saveUser(UserDTO userODT) {
-		repository.save(converter.ConvertToUser(userODT));
+	public void saveUser(UserDTO userDTO) {
+		repository.save(converter.ConvertToUser(userDTO));
 	}
 
 	public void deleteUser(Long id) {
 		repository.delete(id);
 	}
 
-	public void update(UserDTO userODT) {
-		repository.update(converter.ConvertToUser(userODT));
+	public void update(UserDTO userDTO) {
+		repository.update(converter.ConvertToUser(userDTO));
 	}
 }

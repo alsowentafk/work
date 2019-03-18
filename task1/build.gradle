@@ -28,7 +28,7 @@ dependencies {
 	 compile('org.springframework.boot:spring-boot-starter-jdbc:1.2.7.RELEASE')  
 	 compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.2'
   	 compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.2'  
-	  
+  	  compileOnly('org.projectlombok:lombok:1.16.20')	    	  
 }
 
 springBoot {
