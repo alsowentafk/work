@@ -21,11 +21,6 @@ public class UserDTO {
 		this.content = Content;
 	}
 
-	public UserDTO(Long Id, String Content) {
-		this.id = Id;
-		this.content = Content;
-	}
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
