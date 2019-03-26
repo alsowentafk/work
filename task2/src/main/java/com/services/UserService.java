@@ -24,11 +24,11 @@ public class UserService {
 		UserDTO userDTO = transformer.ConvertToUserDTO(userRepository.getbyId(id));
 		return userDTO;
 	}
-	
-	public void update(UserDTO userDTO){
+
+	public void update(UserDTO userDTO) {
 		userRepository.update(transformer.ConvertToUser(userDTO));
 	}
-	
+
 	public void delete(Long id) {
 		userRepository.delete(id);
 	}

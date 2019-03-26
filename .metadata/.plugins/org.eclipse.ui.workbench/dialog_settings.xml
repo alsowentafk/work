@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="-480" key="DIALOG_X_ORIGIN"/>
-		<item value="-462" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="-480"/>
+		<item key="DIALOG_Y_ORIGIN" value="-462"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="940" key="dialogHeight"/>
-		<item value="1110" key="dialogWidth"/>
+		<item key="dialogHeight" value="940"/>
+		<item key="dialogWidth" value="1110"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -17,18 +17,18 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jpt.jaxb"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">
-		<item value="804" key="DIALOG_WIDTH"/>
-		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="825" key="DIALOG_HEIGHT"/>
-		<item value="0" key="DIALOG_X_ORIGIN"/>
-		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="804"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+		<item key="DIALOG_HEIGHT" value="825"/>
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
 	</section>
 	<section name="ImportExportAction">
 	</section>

@@ -6,17 +6,18 @@
 		<item value="/home/also/Desktop/complete"/>
 	</list>
 	<section name="NewWizardAction">
-		<item value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.buildship.ui.creationwizards"/>
+			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
 		</list>
 	</section>
 	<section name="SaveAsDialogSettings">
-		<item value="613" key="DIALOG_WIDTH"/>
-		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="589" key="DIALOG_HEIGHT"/>
-		<item value="619" key="DIALOG_X_ORIGIN"/>
-		<item value="130" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="613"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+		<item key="DIALOG_HEIGHT" value="589"/>
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="130"/>
 	</section>
 </section>

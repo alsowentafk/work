@@ -2460,3 +2460,311 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-03-20 14:29:44,603 [Worker-30: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-03-20 14:29:44,605 [Worker-30: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-20 14:29:44,605 [Worker-30: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 14:56:54,386 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-03-23 15:03:12,231 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:03:12,244 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:03:12,257 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:03:12,260 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:03:12,260 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:08:59,684 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:08:59,686 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:08:59,774 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:08:59,776 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:08:59,776 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:10:32,313 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:10:32,313 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:10:32,313 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:10:32,315 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:10:32,315 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:11:51,006 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:11:51,007 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:11:51,007 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:11:51,009 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:11:51,009 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:15:09,558 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:15:09,559 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:15:09,559 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:15:09,561 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:15:09,561 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:16:48,738 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:16:48,739 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:16:48,739 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:16:48,741 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:16:48,741 [Worker-21: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:18:26,197 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:18:26,197 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:18:26,198 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:18:26,199 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:18:26,199 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:18:51,724 [Worker-22: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:18:51,725 [Worker-22: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:18:51,725 [Worker-22: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:18:51,730 [Worker-22: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:18:51,730 [Worker-22: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:20:01,369 [Worker-28: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:20:01,370 [Worker-28: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:20:01,370 [Worker-28: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:20:01,371 [Worker-28: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:20:01,371 [Worker-28: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:34:28,968 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:34:28,969 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:34:28,971 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:34:28,972 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:34:28,972 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:34:40,767 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-23 15:34:41,570 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: task2:task2:0.0.1-SNAPSHOT @ /home/also/Desktop/work/task2/pom.xml.
+2019-03-23 15:34:42,323 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.1.3.RELEASE/spring-boot-configuration-processor-2.1.3.RELEASE.pom
+2019-03-23 15:34:42,371 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.1.3.RELEASE/spring-boot-configuration-processor-2.1.3.RELEASE.pom
+2019-03-23 15:34:42,428 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.1.3.RELEASE/spring-boot-configuration-processor-2.1.3.RELEASE.jar
+2019-03-23 15:34:42,566 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.1.3.RELEASE/spring-boot-configuration-processor-2.1.3.RELEASE.jar
+2019-03-23 15:34:43,067 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /task2/src/main/java
+2019-03-23 15:34:43,074 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /task2/src/main/resources
+2019-03-23 15:34:43,074 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /task2/src/main/resources
+2019-03-23 15:34:43,074 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /task2/src/test/java
+2019-03-23 15:34:43,435 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-03-23 15:34:44,545 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.1.3.RELEASE/spring-boot-configuration-processor-2.1.3.RELEASE-sources.jar
+2019-03-23 15:34:44,676 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/2.1.3.RELEASE/spring-boot-configuration-processor-2.1.3.RELEASE-sources.jar
+2019-03-23 15:34:44,760 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:2.1.3.RELEASE
+2019-03-23 15:34:44,761 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:2.1.3.RELEASE
+2019-03-23 15:34:57,999 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:34:58,000 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:34:58,012 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:34:58,014 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:34:58,014 [Worker-23: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:37:02,973 [Worker-33: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:37:02,975 [Worker-33: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:37:02,976 [Worker-33: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:37:02,978 [Worker-33: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:37:02,978 [Worker-33: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:52:05,197 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:52:05,198 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:52:05,198 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:52:05,199 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:52:05,199 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:57:10,756 [Worker-24: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:57:10,757 [Worker-24: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:57:10,757 [Worker-24: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:57:10,758 [Worker-24: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:57:10,759 [Worker-24: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-23 15:59:07,971 [Worker-35: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:59:07,971 [Worker-35: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-23 15:59:07,972 [Worker-35: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-23 15:59:07,974 [Worker-35: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-23 15:59:07,974 [Worker-35: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 11:59:14,242 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-03-25 11:59:27,597 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: task2:task2:0.0.1-SNAPSHOT @ /home/also/Desktop/work/task2/pom.xml.
+2019-03-25 12:31:51,643 [Worker-12: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:31:51,649 [Worker-12: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 12:31:51,671 [Worker-12: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 12:31:51,678 [Worker-12: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:31:51,678 [Worker-12: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 12:41:31,074 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:41:31,077 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 12:41:31,078 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 12:41:31,080 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:41:31,080 [Worker-15: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 12:43:49,610 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:43:49,610 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 12:43:49,611 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 12:43:49,613 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:43:49,613 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 12:55:09,071 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:55:09,071 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 12:55:09,072 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 12:55:09,074 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 12:55:09,074 [Worker-10: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 18:45:03,173 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-25 18:53:38,111 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 18:53:38,153 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 18:53:38,184 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 18:53:38,187 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 18:53:38,187 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:26:44,447 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-25 19:26:45,775 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: task2:task2:0.0.1-SNAPSHOT @ /home/also/Desktop/work/task2/pom.xml.
+2019-03-25 19:26:46,430 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
+2019-03-25 19:26:46,477 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.pom
+2019-03-25 19:26:46,528 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
+2019-03-25 19:26:46,574 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson-parent/2.8.5/gson-parent-2.8.5.pom
+2019-03-25 19:26:46,631 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
+2019-03-25 19:26:46,876 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
+2019-03-25 19:26:47,317 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /task2/src/main/java
+2019-03-25 19:26:47,317 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /task2/src/main/resources
+2019-03-25 19:26:47,318 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /task2/src/main/resources
+2019-03-25 19:26:47,318 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /task2/src/test/java
+2019-03-25 19:26:47,465 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2019-03-25 19:26:48,744 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar
+2019-03-25 19:26:48,986 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar
+2019-03-25 19:26:49,417 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.8.5
+2019-03-25 19:26:49,418 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.gson:gson:2.8.5
+2019-03-25 19:39:37,002 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:39:37,003 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:39:37,016 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:39:37,019 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:39:37,019 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:41:14,452 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:41:14,455 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:41:14,455 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:41:14,457 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:41:14,457 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:42:11,424 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:42:11,425 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:42:11,425 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:42:11,427 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:42:11,427 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:44:23,115 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:44:23,115 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:44:23,116 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:44:23,118 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:44:23,118 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:45:46,458 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:45:46,459 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:45:46,459 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:45:46,461 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:45:46,461 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:49:49,596 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:49:49,596 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:49:49,597 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:49:49,598 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:49:49,598 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:50:21,221 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:50:21,221 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:50:21,222 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:50:21,224 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:50:21,224 [Worker-5: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:52:01,086 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:52:01,086 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:52:01,086 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:52:01,089 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:52:01,089 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 19:52:19,555 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:52:19,556 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 19:52:19,557 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 19:52:19,560 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 19:52:19,560 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 20:10:24,981 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-25 20:10:25,320 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: task2:task2:0.0.1-SNAPSHOT @ /home/also/Desktop/work/task2/pom.xml.
+2019-03-25 20:10:25,883 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2019-03-25 20:10:25,934 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2019-03-25 20:10:25,998 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2019-03-25 20:10:26,099 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2019-03-25 20:10:26,573 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /task2/src/main/java
+2019-03-25 20:10:26,574 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /task2/src/main/resources
+2019-03-25 20:10:26,574 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /task2/src/main/resources
+2019-03-25 20:10:26,574 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /task2/src/test/java
+2019-03-25 20:10:26,676 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-03-25 20:10:28,067 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar
+2019-03-25 20:10:28,159 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar
+2019-03-25 20:10:28,225 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.json-simple:json-simple:1.1.1
+2019-03-25 20:10:28,227 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.googlecode.json-simple:json-simple:1.1.1
+2019-03-25 20:12:19,468 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:12:19,468 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 20:12:19,482 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 20:12:19,484 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:12:19,484 [Worker-16: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 20:12:41,491 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:12:41,492 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 20:12:41,493 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 20:12:41,494 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:12:41,494 [Worker-19: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 20:16:58,192 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:16:58,192 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 20:16:58,193 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 20:16:58,194 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:16:58,194 [Worker-0: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 20:21:36,177 [Worker-24: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:21:36,177 [Worker-24: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 20:21:36,177 [Worker-24: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 20:21:36,179 [Worker-24: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:21:36,179 [Worker-24: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-25 20:21:56,444 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:21:56,445 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-25 20:21:56,445 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-25 20:21:56,447 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-25 20:21:56,448 [Worker-4: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 08:39:51,755 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-03-26 08:54:40,379 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 08:54:40,452 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 08:54:40,496 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 08:54:40,500 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 08:54:40,500 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:00:03,624 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:00:03,627 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:00:03,637 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:00:03,639 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:00:03,639 [Worker-6: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:05:27,817 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:05:27,818 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:05:27,819 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:05:27,821 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:05:27,821 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:13:33,582 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:13:33,582 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:13:33,583 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:13:33,585 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:13:33,585 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:17:19,406 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:17:19,406 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:17:19,407 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:17:19,409 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:17:19,409 [Worker-1: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:18:22,048 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:18:22,049 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:18:22,049 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:18:22,051 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:18:22,052 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:19:27,124 [Worker-6: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:19:27,125 [Worker-6: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:19:27,126 [Worker-6: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:19:27,127 [Worker-6: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:19:27,128 [Worker-6: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:21:38,592 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:21:38,592 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:21:38,600 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:21:38,604 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:21:38,604 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:28:46,337 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:28:46,338 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:28:46,338 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:28:46,342 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:28:46,342 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:28:53,433 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:28:53,434 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:28:53,434 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:28:53,436 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:28:53,436 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:29:17,078 [Worker-2: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:29:17,078 [Worker-2: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:29:17,079 [Worker-2: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:29:17,081 [Worker-2: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:29:17,082 [Worker-2: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:30:06,040 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: task2:task2:0.0.1-SNAPSHOT @ /home/also/Desktop/work/task2/pom.xml.
+2019-03-26 09:30:13,385 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.6/lombok-1.18.6.pom
+2019-03-26 09:30:13,983 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.6/lombok-1.18.6.pom
+2019-03-26 09:30:14,504 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar
+2019-03-26 09:30:21,377 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar
+2019-03-26 09:30:22,749 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:30:22,752 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:30:22,752 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:30:22,757 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:30:22,757 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:30:23,755 [Worker-13: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:30:23,756 [Worker-13: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-26 09:30:23,809 [Worker-13: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:30:23,811 [Worker-13: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:30:23,811 [Worker-13: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:30:23,898 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.6/lombok-1.18.6-sources.jar
+2019-03-26 09:30:24,727 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.6/lombok-1.18.6-sources.jar
+2019-03-26 09:30:25,376 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.6
+2019-03-26 09:30:25,378 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.6
+2019-03-26 09:30:26,519 [Worker-10: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.6
+2019-03-26 09:30:34,958 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:30:34,958 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:30:34,958 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:30:34,960 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:30:34,960 [Worker-2: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources
+2019-03-26 09:32:35,149 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: task2:task2:0.0.1-SNAPSHOT @ /home/also/Desktop/work/task2/pom.xml.
+2019-03-26 09:32:35,691 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:32:35,694 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:32:35,695 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-26 09:32:35,697 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-26 09:32:35,697 [Worker-14: Launching task2 - Task2Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/also/Desktop/work/task2/src/test/resources

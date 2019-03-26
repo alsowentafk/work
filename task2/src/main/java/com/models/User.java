@@ -1,5 +1,7 @@
 package com.models;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,7 +17,8 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class User implements Serializable{
+	private static final long serialVersionUID = -2847447691764366847L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
