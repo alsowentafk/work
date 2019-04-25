@@ -26,32 +26,35 @@ import com.models.UserDTO;
 import com.responses.UploadFileResponse;
 import com.services.FileStorageService;
 import com.services.UserService;
+import com.transoformers.UserUserDTO;
 
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping("/api/v3")
 @Slf4j
-public class Controller {
+public class UserController {
 
 	@Autowired
 	private UserService userService;
 	@Autowired
 	private FileStorageService fileStorageService;
+	@Autowired
+	private UserUserDTO transformer;
 
 	@PostMapping
 	public void save(@RequestBody UserDTO userDTO) {
-		userService.save(userDTO);
+		userService.save(transformer.ConvertToUser(userDTO));
 	}
 
 	@GetMapping("{id}")
-	public UserDTO getbyId(@PathVariable Long id) {
-		return userService.getbyID(id);
+	public UserDTO getById(@PathVariable Long id) {
+		return transformer.ConvertToUserDTO(userService.getbyID(id));
 	}
 
 	@PutMapping
 	public void update(@RequestBody UserDTO userDTO) {
-		userService.update(userDTO);
+		userService.update(transformer.ConvertToUser(userDTO));
 	}
 
 	@DeleteMapping("{id}")
@@ -65,28 +68,28 @@ public class Controller {
 
 		String fileDownloadUri = ServletUriComponentsBuilder.fromCurrentContextPath().path("/downloadFile/")
 				.path(fileName).toUriString();
-		log.info("File uploaded succsessful");
+		log.info("File uploaded succsessfulv {}", fileName);
 		return new UploadFileResponse(fileName, fileDownloadUri, file.getContentType(), file.getSize());
 	}
 
 	@GetMapping("/downloadFile/{fileName:.+}")
 	public ResponseEntity<Resource> downloadFile(@PathVariable String fileName, HttpServletRequest request)
 			throws MalformedURLException {
-		// Load file as Resource
+
 		Resource resource = fileStorageService.loadFileAsResourse(fileName);
 
-		// Try to determine file's content type
 		String contentType = null;
 		try {
 			contentType = request.getServletContext().getMimeType(resource.getFile().getAbsolutePath());
 		} catch (IOException ex) {
-			log.info("Could not determine file type.");
+			log.info("Could not determine file type."+fileName+ex);
+			throw new RuntimeException(ex.getMessage());
 		}
 
 		if (contentType == null) {
 			contentType = "application/octet-stream";
 		}
-		log.info("File downloaded succsessful");
+		log.info("File downloaded succsessful"+fileName);
 		return ResponseEntity.ok().contentType(MediaType.parseMediaType(contentType))
 				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + resource.getFilename() + "\"")
 				.body(resource);

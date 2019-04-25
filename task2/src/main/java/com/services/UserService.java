@@ -3,9 +3,8 @@ package com.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.models.UserDTO;
+import com.models.User;
 import com.repositorys.UserRepository;
-import com.transoformers.UserUserDTO;
 
 @Service
 public class UserService {
@@ -13,20 +12,16 @@ public class UserService {
 	@Autowired
 	private UserRepository userRepository;
 
-	@Autowired
-	private UserUserDTO transformer;
-
-	public void save(UserDTO userDTO) {
-		userRepository.save(transformer.ConvertToUser(userDTO));
+	public void save(User user) {
+		userRepository.save(user);
 	}
 
-	public UserDTO getbyID(Long id) {
-		UserDTO userDTO = transformer.ConvertToUserDTO(userRepository.getbyId(id));
-		return userDTO;
+	public User getbyID(Long id) {
+		return userRepository.getById(id);
 	}
 
-	public void update(UserDTO userDTO) {
-		userRepository.update(transformer.ConvertToUser(userDTO));
+	public void update(User user) {
+		userRepository.update(user);
 	}
 
 	public void delete(Long id) {

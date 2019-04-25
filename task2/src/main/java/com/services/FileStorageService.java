@@ -31,7 +31,7 @@ public class FileStorageService {
 		try {
 			Files.createDirectories(this.fileStorageLocation);
 		} catch (Exception ex) {
-			log.error("Invalid path!");
+			log.error(ex.getMessage());
 		}
 	}
 
@@ -39,36 +39,30 @@ public class FileStorageService {
 		String fileName = StringUtils.cleanPath(file.getOriginalFilename());
 
 		try {
-			if (fileName.contains("..")) {
-				log.error("Sorry! Filename contains invalid path sequence " + fileName);
-			}
-
 			Path targetLocation = this.fileStorageLocation.resolve(fileName);
 			Files.copy(file.getInputStream(), targetLocation, StandardCopyOption.REPLACE_EXISTING);
 
 			return fileName;
 		} catch (IOException ex) {
-			log.error("Could not store file " + fileName + ". Please try again!", ex);
-			return "";
+			log.error("Could not store file {}. Please try again! {}", fileName, ex);
+			throw new RuntimeException(ex.getMessage());
 		}
 	}
 
 	public Resource loadFileAsResourse(String fileName) throws MalformedURLException {
+		Resource resource = null;
 		try {
 			Path filePath = this.fileStorageLocation.resolve(fileName).normalize();
-			Resource resource = new UrlResource(filePath.toUri());
+			resource = new UrlResource(filePath.toUri());
 			if (resource.exists()) {
-				return resource;
-			} else {
-				log.error("File not found " + fileName);
 				return resource;
 			}
 		} catch (MalformedURLException ex) {
-			log.error("File not found " + fileName, ex);
-			Path filePath = this.fileStorageLocation.resolve(fileName).normalize();
-			Resource resource = new UrlResource(filePath.toUri());
-			return resource;
+			log.error("Error" + fileName, ex);
+			throw new RuntimeException(ex.getMessage());
 		}
+		log.error("File not found " + fileName);
+		return resource;
 	}
 
 }

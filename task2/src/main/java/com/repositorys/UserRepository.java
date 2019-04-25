@@ -1,18 +1,17 @@
 package com.repositorys;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 
 import org.springframework.stereotype.Repository;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
-
 import com.models.User;
 
 import lombok.extern.slf4j.Slf4j;
@@ -20,59 +19,53 @@ import lombok.extern.slf4j.Slf4j;
 @Repository
 @Slf4j
 public class UserRepository {
-	private static Map<Long, User> userRepositoryTemplate = new HashMap<Long, User>();
-	private static String path = "./uploads/database.json";
-
-	private void serializable(Map<Long, User> template) {
-		Gson gson = new Gson();
-		String json = gson.toJson(template);
-		try (FileWriter file = new FileWriter(path)) {
-
-			file.write(json);
-			file.flush();
-			log.info("Serializable succssesful");
-
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-	private Map<Long, User> deserialize() throws FileNotFoundException, IOException {
-		ObjectMapper mapper = new ObjectMapper();
-		Map<Long, User> template = mapper.readValue(new File(path), new TypeReference<Map<Long, User>>() {
-		});
-		log.info("Deserialize succssesful");
-		return template;
-	}
-
-	public UserRepository() throws IOException, FileNotFoundException {
-		userRepositoryTemplate = deserialize();
-	}
+	private static final String PATH_TO_FILE = "./uploads/database.json";
+	private Gson gson = new Gson();
 
 	public void save(User user) {
-		userRepositoryTemplate.put(user.getId(), user);
-		serializable(userRepositoryTemplate);
+		try {
+			String json = gson.toJson(user);
+			Files.write(Paths.get(PATH_TO_FILE), (json + '\n').getBytes(), StandardOpenOption.APPEND);
+			log.info("Serializable succssesful"+json+" to "+PATH_TO_FILE);
+		} catch (IOException e) {
+			log.error(e.getMessage());
+			throw new RuntimeException(e.getMessage());
+		}
 	}
 
-	public User getbyId(Long id) {
+	public User getById(Long id) {
 		try {
-			userRepositoryTemplate = deserialize();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			return gson.fromJson(deserialize().stream().filter(u -> gson.fromJson(u, User.class).getId().equals(id))
+					.findFirst().orElse(null), User.class);
 		} catch (IOException e) {
-			e.printStackTrace();
+			throw new RuntimeException(e.getMessage());
 		}
-		User user = userRepositoryTemplate.get(id);
-		return user;
 	}
 
 	public void update(User user) {
-		userRepositoryTemplate.put(user.getId(), user);
-		serializable(userRepositoryTemplate);
+		try {
+			List<String> out = new ArrayList<>(Files.readAllLines(Paths.get(PATH_TO_FILE), StandardCharsets.UTF_8));
+			out.removeIf(u -> gson.fromJson(u, User.class).getId().equals(user.getId()));
+			out.add(gson.toJson(user));
+			Files.write(Paths.get(PATH_TO_FILE), out, StandardCharsets.UTF_8);
+		} catch (IOException e) {
+			throw new RuntimeException(e.getMessage());
+		}
 	}
 
 	public void delete(Long id) {
-		userRepositoryTemplate.remove(id);
-		serializable(userRepositoryTemplate);
+		try {
+			List<String> out = new ArrayList<>(Files.readAllLines(Paths.get(PATH_TO_FILE), StandardCharsets.UTF_8));
+			out.removeIf(u -> gson.fromJson(u, User.class).getId().equals(id));
+			Files.write(Paths.get(PATH_TO_FILE), out, StandardCharsets.UTF_8);
+		} catch (IOException e) {
+			throw new RuntimeException(e.getMessage());
+		}
+	}
+
+	private List<String> deserialize() throws FileNotFoundException, IOException {
+		List<String> jsonList = Files.readAllLines(Paths.get(PATH_TO_FILE));
+		log.info("Deserialize succssesful"+" jsonList"+" from "+PATH_TO_FILE);
+		return jsonList;
 	}
 }
