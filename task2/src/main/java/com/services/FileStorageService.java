@@ -49,7 +49,7 @@ public class FileStorageService {
 		}
 	}
 
-	public Resource loadFileAsResourse(String fileName) throws MalformedURLException {
+	public Resource loadFileAsResourse(String fileName) {
 		Resource resource = null;
 		try {
 			Path filePath = this.fileStorageLocation.resolve(fileName).normalize();
@@ -57,9 +57,9 @@ public class FileStorageService {
 			if (resource.exists()) {
 				return resource;
 			}
-		} catch (MalformedURLException ex) {
-			log.error("Error" + fileName, ex);
-			throw new RuntimeException(ex.getMessage());
+		} catch (MalformedURLException e) {
+			log.error("Error {} {}", fileName, e);
+			throw new RuntimeException(e.getMessage());
 		}
 		log.error("File not found " + fileName);
 		return resource;

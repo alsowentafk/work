@@ -28,19 +28,18 @@ import com.services.FileStorageService;
 import com.services.UserService;
 import com.transoformers.UserUserDTO;
 
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
-@RestController
-@RequestMapping("/api/v3")
 @Slf4j
+@RestController
+@RequiredArgsConstructor
+@RequestMapping("/api/v3")
 public class UserController {
 
-	@Autowired
-	private UserService userService;
-	@Autowired
-	private FileStorageService fileStorageService;
-	@Autowired
-	private UserUserDTO transformer;
+	private final UserService userService;
+	private final FileStorageService fileStorageService;
+	private final UserUserDTO transformer;
 
 	@PostMapping
 	public void save(@RequestBody UserDTO userDTO) {
@@ -82,14 +81,14 @@ public class UserController {
 		try {
 			contentType = request.getServletContext().getMimeType(resource.getFile().getAbsolutePath());
 		} catch (IOException ex) {
-			log.info("Could not determine file type."+fileName+ex);
+			log.info("Could not determine file type." + fileName + ex);
 			throw new RuntimeException(ex.getMessage());
 		}
 
 		if (contentType == null) {
 			contentType = "application/octet-stream";
 		}
-		log.info("File downloaded succsessful"+fileName);
+		log.info("File downloaded succsessful" + fileName);
 		return ResponseEntity.ok().contentType(MediaType.parseMediaType(contentType))
 				.header(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + resource.getFilename() + "\"")
 				.body(resource);

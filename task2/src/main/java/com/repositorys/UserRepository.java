@@ -26,7 +26,7 @@ public class UserRepository {
 		try {
 			String json = gson.toJson(user);
 			Files.write(Paths.get(PATH_TO_FILE), (json + '\n').getBytes(), StandardOpenOption.APPEND);
-			log.info("Serializable succssesful"+json+" to "+PATH_TO_FILE);
+			log.info("Serializable succssesful {} to {}",json,PATH_TO_FILE);
 		} catch (IOException e) {
 			log.error(e.getMessage());
 			throw new RuntimeException(e.getMessage());
@@ -65,7 +65,7 @@ public class UserRepository {
 
 	private List<String> deserialize() throws FileNotFoundException, IOException {
 		List<String> jsonList = Files.readAllLines(Paths.get(PATH_TO_FILE));
-		log.info("Deserialize succssesful"+" jsonList"+" from "+PATH_TO_FILE);
+		log.info("Deserialize succssesful jsonList from {}",PATH_TO_FILE);
 		return jsonList;
 	}
 }
